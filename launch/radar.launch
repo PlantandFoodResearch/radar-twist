@@ -1,0 +1,8 @@
+<launch>  
+  <node pkg="rosserial_python" type="serial_node.py" name="radar_serial">
+    <param name="port" value="/dev/ttyUSB2" />
+  </node>
+
+  <node pkg="radar_twist" type="radar_twist_node" name="radar_node"/>
+
+</launch> 
