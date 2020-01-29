@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   wheel_odom
+  rosserial_python
 )
 
 ## System dependencies are found with CMake's conventions
