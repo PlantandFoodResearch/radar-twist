@@ -27,7 +27,7 @@ public:
   {
     
     
-	twist.header.stamp = ros::Time::now();
+	twist.header.stamp = input.header.stamp;
 	
     //covariances are three values depending on the result
     // only reads zero for -0.53 to 0.53(0.15m/s), so 0.15^2 = 0.0225
